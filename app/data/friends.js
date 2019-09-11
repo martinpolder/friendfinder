@@ -21,7 +21,7 @@ var friendArr = [
 },
     // friend two
     {
-        "name": "Leroy Crawford",
+        "name": "Grover Sinclair",
         "photo": "/photos/leroy-crawford.jpg",
         // 10 scores
         "scores": [
@@ -38,7 +38,7 @@ var friendArr = [
 },
     // friend three
     {
-        "name": "Reginald Chevrolet",
+        "name": "Lafayette Chevrolet",
         "photo": "/photos/reginald-chevrolet.jpg",
         // 10 scores
         "scores": [
