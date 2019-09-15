@@ -4,7 +4,7 @@ var friendArr = [
     //Friend one
     {
         "name": "Herbet Schubert",
-        "photo": "/photos/bill-farnsworth.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/83/Matt_Damon_TIFF_2015.jpg",
         // 10 scores
         "scores": [
         5,
@@ -22,7 +22,7 @@ var friendArr = [
     // friend two
     {
         "name": "Grover Sinclair",
-        "photo": "/photos/leroy-crawford.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/9/92/George_Clooney-4_The_Men_Who_Stare_at_Goats_TIFF09_%28cropped%29.jpg",
         // 10 scores
         "scores": [
         2,
@@ -39,7 +39,7 @@ var friendArr = [
     // friend three
     {
         "name": "Lafayette Chevrolet",
-        "photo": "/photos/reginald-chevrolet.jpg",
+        "photo": "https://www.goldenglobes.com/sites/default/files/articles/cover_images/anthony_hopkins_1996s_fotor.jpg",
         // 10 scores
         "scores": [
         5,
@@ -56,7 +56,7 @@ var friendArr = [
     // friend four
     {
         "name": "Clementine La'Equinox",
-        "photo": "/photos/clementinelaequinox.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Nancy_Reagan.jpg",
         // 10 scores
         "scores": [
         1,
@@ -73,7 +73,7 @@ var friendArr = [
     // friend five
     {
         "name": "Henrietta Von Featherthorn",
-        "photo": "/photos/henrietta-featherthorn.jpg",
+        "photo": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg",
         // 10 scores
         "scores": [
         5,
@@ -90,7 +90,7 @@ var friendArr = [
     // friend six
     {
         "name": "Llewellyn Jacksonian",
-        "photo": "/photos/llewellynphilabuster.jpg",
+        "photo": "https://nbcprofootballtalk.files.wordpress.com/2017/01/618001646-e1483641086589.jpg",
         // 10 scores
         "scores": [
         2,
@@ -107,7 +107,7 @@ var friendArr = [
     // friend seven
     {
         "name": "Philadelphia Washington",
-        "photo": "/photos/leroy-crawford.jpg",
+        "photo": "https://postmediacanadadotcom.files.wordpress.com/2013/12/don-cherry_213382938.jpg",
         // 10 scores
         "scores": [
         2,
@@ -123,8 +123,8 @@ var friendArr = [
 },
     // friend eight
     {
-        "name": "Alberto Gonzales-Giles",
-        "photo": "/photos/leroy-crawford.jpg",
+        "name": "Alberta Gonzales-Giles",
+        "photo": "https://assets.vogue.com/photos/5d5dd19465a11f0008ef277e/master/pass/serena-williams-promo.jpg",
         // 10 scores
         "scores": [
         2,
@@ -141,7 +141,7 @@ var friendArr = [
     // friend nine
     {
         "name": "Ingrid-Anne Chrysanthamum",
-        "photo": "/photos/leroy-crawford.jpg",
+        "photo": "https://www.biography.com/.image/t_share/MTU1MjAxMTgzMTc3MjU0ODA3/meghan-markle-visits-the-iconic-titanic-belfast-during-their-visit-to-northern-ireland-on-march-23-2018-in-belfast-northern-ireland-united-kingdom-photo-by-samir-husseinsamir-husseinwireimage-square.jpg",
         // 10 scores
         "scores": [
         2,
@@ -157,8 +157,8 @@ var friendArr = [
 },
     // friend ten
     {
-        "name": "Mildred James Lansberry",
-        "photo": "/photos/leroy-crawford.jpg",
+        "name": "Mildred Jannette Lansberry",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
         // 10 scores
         "scores": [
         2,
