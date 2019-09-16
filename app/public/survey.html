@@ -15,7 +15,10 @@
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-
+<!-- font 
+ -->
+ <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Marck+Script|Quicksand&display=swap" rel="stylesheet"> 
   <!-- custom css  -->
   <link rel="stylesheet" href="style.css">
   <!-- fonts  -->
@@ -26,7 +29,7 @@
   <nav class="fixed-top my-nav">
 
     <a href="/">
-      <h1>Fun Friend Finder
+      <h1 id="home-link">Fun Friend Finder
       </h1>
     </a>
 
@@ -58,7 +61,7 @@
 
 
 
-    <h3>Questionaire</h3>
+    <h3 id="q-title">Questionaire</h3>
 
     <div class="form-group">
       <label class="qlabel" for="question1">A friend is someone who has a great jumbalaya recipe</label>
@@ -158,6 +161,10 @@
     </div>
     <!-- submit button  -->
     <button type="button" class="btn" id="submit-btn">Submit</button>
+    <hr>
+    <footer>
+        <a id="api-link" href="/api/friends">API friends database</a>
+    </footer>
   </div>
 
 
@@ -167,14 +174,14 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title modal-text">Your New Friend!</h5>
+        <h5 class="modal-title" id="modal-title">Your New Friend!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
   <!-- Modal Body  -->
   <div class="modal-body">
-        <h3 id="match-name modal-text"></h3>
+        <span class="match-txt" id="match-name"></span>
         <img id="match-pic" src="" alt=""> 
       </div>
       <div class="modal-footer">

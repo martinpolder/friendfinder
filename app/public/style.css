@@ -1,6 +1,8 @@
 body {
     background-image: url("https://raw.githubusercontent.com/martinpolder/friendfinder/master/app/data/beige-tiles.png");
     color: rgb(242, 242, 242);
+   font-family: 'Quicksand', sans-serif;
+   font-size: 130%;
 }
 
 h1 {
@@ -12,29 +14,47 @@ h1 {
     color: rgb(242, 242, 242);
 }
 
+#home-link {
+    color: rgb(242, 242, 242);
+
+}
+
+#home-link:hover {
+    color: rgb(9, 13, 53);
+}
+
 #splash {
     width: 100%;
 }
 
-#splash-serv {
+#splash-surv {
     width: 100%;
 }
 
 .quote {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(16, 17, 17);
-    font-size: 300%;
-   
+    color: rgb(255, 247, 199);
+    text-shadow: 2px 2px 20px rgb(24, 29, 58);
+    font-size: 400%;
+    font-family: 'Marck Script', cursive;
  
   }
 
 .btn {
     background-color: rgb(115, 65, 54);
-    color: black;
+    color: rgb(245, 239, 225);
+    font-size: 120%;
 }
+
+.btn:hover {
+    background-color: rgb(245, 229, 226);
+    color: black;
+   
+}
+
 
 
 .container {
@@ -48,6 +68,12 @@ h1 {
 
 }
 
+
+
+#q-title {
+    margin-top: 7%;
+}
+
 .form-control {
     width: 65%;
     margin: 0 auto 0 auto;
@@ -56,11 +82,27 @@ h1 {
 }
 
 #match-pic {
-    width: 70%;
+    width: 80%;
 }
 
-.modal-text {
+#modal-title {
     color: rgb(9, 13, 53);
+    font-size: 130%
+}
+
+.match-txt {
+    color: rgb(9, 13, 53);
+    font-size: 130%
+}
+
+#api-link {
+    color: grey;
+    
+}
+
+#api-link:hover {
+    color: rgb(255, 255, 255);
+    
 }
 
 footer {
