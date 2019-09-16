@@ -2,148 +2,268 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Survey</title>
-       <!-- reset css  -->
-       <link rel="stylesheet" href="reset.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey</title>
+  <!-- reset css  -->
+  <link rel="stylesheet" href="reset.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-    <!-- custom css  -->
-    <link rel="stylesheet" href="style.css">
-    <!-- fonts  -->
-  
+
+  <!-- custom css  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fonts  -->
+
 </head>
 
 <body>
-        <nav class="fixed-top my-nav">
-        
-                <h1>Fun Friend Finder
-                </h1>   
-             
-              </nav>
-      
-      
-         
-          <img id="splash" src="https://raw.githubusercontent.com/martinpolder/friendfinder/master/app/data/photos/friend-splash.jpg">
-      
-          <div class="container">
-          <h3 class="quote">"F is for friends who do stuff together"</h3>
-      
-          <hr>
-                <h2>Tell us about yourself!</h2>
-                <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Photo URL</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                         
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Your Name</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                    
-                       
-                      </form>
-                <p>input form for name, and photo</p>
+  <nav class="fixed-top my-nav">
 
-         
-              <h3>Questionaire</h3>
+    <a href="/">
+      <h1>Fun Friend Finder
+      </h1>
+    </a>
 
-              <div class="form-group">
-                    <label class="qlabel" for="question1">1) A friend is someone who has a great pizza recipe</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
+  </nav>
 
-                    <label class="qlabel" for="question2">2) You are most comfortable in solitude</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
 
-                    <label class="qlabel" for="question3">3) You prefer to be around outgoing, gregarious people</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
 
-                    <label class="qlabel" for="question4">4) A fun night consists of ordering food and renting a movie</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question5">5) You are invigorated by social situations</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question6">You are allergic to shellfish</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question7">AI poses an imminent threat to humanity even more than climate change</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question8">God exists</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question9">You are desperately in need of a kidney donor</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                    <label class="qlabel" for="question10">Pineapple on pizza is really delicious</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Strongly Disagree</option value="1">
-                      <option>Disagree</option value="2">
-                      <option selected>Neutral</option value="3">
-                      <option>Agree</option value="4">
-                      <option>Strongly Agree</option value="5">
-                    </select>
-                  </div>
-          </div>
+  <img id="splash-surv"
+    src="https://raw.githubusercontent.com/martinpolder/friendfinder/master/app/data/friend-splash2.jpg">
+
+  <div class="container">
+    <h3 class="quote">"There’s not a word yet for old friends who’ve just met."</h3>
+
+    <hr>
+    <h2>Tell us about yourself!</h2>
+    <form>
+      <div class="form-group">
+        <label>Photo URL</label>
+        <input class="form-control" id="photo-url" aria-describedby="emailHelp" placeholder="http://">
+
+      </div>
+      <div class="form-group">
+        <label>Your Name</label>
+        <input class="form-control" id="name-input" placeholder="Name">
+      </div>
+
+
+    </form>
+
+
+
+    <h3>Questionaire</h3>
+
+    <div class="form-group">
+      <label class="qlabel" for="question1">A friend is someone who has a great jumbalaya recipe</label>
+      <select class="form-control" id="q1">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+
+      <label class="qlabel" for="question2">You are most comfortable in solitude</label>
+      <select class="form-control" id="q2">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+
+      <label class="qlabel" for="question3">You prefer to be around outgoing, gregarious people</label>
+      <select class="form-control" id="q3">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+
+      <label class="qlabel" for="question4">A fun night consists of ordering food and renting a movie</label>
+      <select class="form-control" id="q4">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question5">You are invigorated by social situations</label>
+      <select class="form-control" id="q5">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question6">You are allergic to shellfish</label>
+      <select class="form-control" id="q6">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question7">AI poses an imminent threat to humanity even more than climate
+        change</label>
+      <select class="form-control" id="q7">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question8">God exists</label>
+      <select class="form-control" id="q8">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question9">You are desperately in need of a kidney donor</label>
+      <select class="form-control" id="q9">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+      <label class="qlabel" for="question10">Pineapple on pizza is really delicious</label>
+      <select class="form-control" id="q10">
+          <option selected value=""></option>
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neutral</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+      </select>
+    </div>
+    <!-- submit button  -->
+    <button type="button" class="btn" id="submit-btn">Submit</button>
+  </div>
+
+
+  <!-- RESULT MODAL  -->
+
+  <div class="modal fade" id="userMatch" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Your New Friend!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+  <!-- Modal Body  -->
+  <div class="modal-body">
+        <h3 id="match-name"></h3>
+        <img id="match-pic" src="" alt=""> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- LOGIC  -->
+
+  <!-- Latest compiled JavaScript -->
+  <!-- jQuery Reference -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  <script type="text/JavaScript">
+
+$("#submit-btn").on("click", function(){
+
+// make sure the input boxes are filled and then post them and the survey results 
+if (($('#name-input').val().trim() !== "") && ($('#photo-url').val().trim() !== "")){
+
+var friendInputData = {
+  name: $('#name-input').val(),
+  photo: $("#photo-url").val(),
+  scores: [
+    $('#q1').val(),
+    $('#q2').val(),
+    $('#q3').val(),
+    $('#q4').val(),
+    $('#q5').val(),
+    $('#q6').val(),
+    $('#q7').val(),
+    $('#q8').val(),
+    $('#q9').val(),
+    $('#q10').val(),
+
+  ]
+};
+
+// get the URL and declare to use it in the AJAX post 
+var currentURL = window.location.origin;
+
+// AJAX 
+$.post(currentURL + "/api/friends", friendInputData, function(data){
+ 
+
+  // in here grab the results from the logic that determines the best match in /api/friends
+  $("#match-name").text(data.name);
+         $('#match-pic').attr("src", data.photo);
+                  // shows the best match
+                  $("#userMatch").modal('toggle');
+                  // empty input
+                    $("#name").val("");
+                    $("#photo").val("");
+
+
+});
+
+}
+
+else {
+  //modal 
+ alert("empty form!");
+}
+
+return false;
+
+
+});
+
+$('#homeModal').click(function () {
+            $.get('/', function (req, res) {
+                location.replace(res);
+            })
+
+
+
+
+          });
+
+
+</script>
+
+
 </body>
 
 </html>

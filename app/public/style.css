@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://raw.githubusercontent.com/martinpolder/friendfinder/master/app/data/photos/beige-tiles.png");
+    background-image: url("https://raw.githubusercontent.com/martinpolder/friendfinder/master/app/data/beige-tiles.png");
     color: rgb(242, 242, 242);
 }
 
@@ -13,6 +13,10 @@ h1 {
 }
 
 #splash {
+    width: 100%;
+}
+
+#splash-serv {
     width: 100%;
 }
 
@@ -49,6 +53,10 @@ h1 {
     margin: 0 auto 0 auto;
     text-align: center;
     margin-bottom: 5%;
+}
+
+#match-pic {
+    width: 70%;
 }
 
 footer {

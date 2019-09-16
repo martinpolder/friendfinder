@@ -25,16 +25,16 @@ var friendArr = [
         "photo": "https://upload.wikimedia.org/wikipedia/commons/9/92/George_Clooney-4_The_Men_Who_Stare_at_Goats_TIFF09_%28cropped%29.jpg",
         // 10 scores
         "scores": [
-        2,
-        5,
-        4,
-        2,
         3,
-        4,
-        5,
+        3,
         2,
         4,
-        3, ]
+        1,
+        2,
+        2,
+        4,
+        3,
+        1, ]
 },
     // friend three
     {
@@ -87,22 +87,21 @@ var friendArr = [
         3,
         2, ]
 },
-    // friend six
     {
         "name": "Llewellyn Jacksonian",
         "photo": "https://nbcprofootballtalk.files.wordpress.com/2017/01/618001646-e1483641086589.jpg",
         // 10 scores
         "scores": [
-        2,
-        5,
         4,
         2,
+        2,
+        1,
         3,
-        4,
-        5,
         2,
+        1,
+        5,
         4,
-        3, ]
+        2, ]
 },
     // friend seven
     {
@@ -110,16 +109,16 @@ var friendArr = [
         "photo": "https://postmediacanadadotcom.files.wordpress.com/2013/12/don-cherry_213382938.jpg",
         // 10 scores
         "scores": [
-        2,
-        5,
-        4,
-        2,
+        1,
         3,
-        4,
         5,
         2,
-        4,
-        3, ]
+        1,
+        3,
+        2,
+        1,
+        5,
+        2, ]
 },
     // friend eight
     {
@@ -127,16 +126,16 @@ var friendArr = [
         "photo": "https://assets.vogue.com/photos/5d5dd19465a11f0008ef277e/master/pass/serena-williams-promo.jpg",
         // 10 scores
         "scores": [
-        2,
         5,
         4,
         2,
+        4,
+        1,
         3,
-        4,
-        5,
+        3,
         2,
-        4,
-        3, ]
+        1,
+        4, ]
 },
     // friend nine
     {
@@ -145,15 +144,15 @@ var friendArr = [
         // 10 scores
         "scores": [
         2,
-        5,
-        4,
-        2,
         3,
+        1,
         4,
-        5,
         2,
-        4,
-        3, ]
+        5,
+        5,
+        3,
+        1,
+        2, ]
 },
     // friend ten
     {
@@ -161,16 +160,16 @@ var friendArr = [
         "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
         // 10 scores
         "scores": [
-        2,
-        5,
-        4,
-        2,
         3,
-        4,
-        5,
+        3,
         2,
         4,
-        3, ]
+        1,
+        2,
+        2,
+        4,
+        3,
+        1, ]
 }
 
 ];
