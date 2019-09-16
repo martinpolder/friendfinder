@@ -59,6 +59,10 @@ h1 {
     width: 70%;
 }
 
+.modal-text {
+    color: rgb(9, 13, 53);
+}
+
 footer {
     text-align: left;
 }
